@@ -66,5 +66,14 @@ class CreateCourses < ActiveRecord::Migration[5.2]
   end
 end
 ```
+
+## Creating a Controller
+
+Format: rails generate model PLURAL_NAME
+
+```bash
+rails generate controller courses
+```
+
 Tests
 [create new](tests/new.md)
