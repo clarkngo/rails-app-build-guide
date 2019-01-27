@@ -1,9 +1,12 @@
-# Go to controller spec folder
+# Test for create action
+
+## Go to controller spec folder
 
 ```
 /APP_NAME/spec/controllers/courses
 ```
 
+## Adding the following
 ```
 require 'rails_helper'
 
@@ -18,7 +21,7 @@ end
 ```
 
 
-Error 1:
+## Error 1:
 ```
 1) CoursesController courses#new action should successfully show the new form 
      Failure/Error: get :new
@@ -33,7 +36,7 @@ To fix, update `routes.rb`:
   resources :courses, only: [:new, :create]
 ```
 
-Error 2:
+## Error 2:
 
 ```
   1) CoursesController courses#new action should successfully show the new form 
@@ -52,7 +55,7 @@ class CoursesController < ApplicationController
 end
 ```
 
-Error 3:
+## Error 3:
 
 ```
  1) CoursesController courses#new action should successfully show the new form 
