@@ -67,4 +67,4 @@ class CreateCourses < ActiveRecord::Migration[5.2]
 end
 ```
 Tests
-[create new](new.md)
+[create new](tests/new.md)
