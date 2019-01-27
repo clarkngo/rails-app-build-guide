@@ -76,4 +76,5 @@ rails generate controller courses
 ```
 
 Tests
+[index](tests/index.md)
 [create new](tests/new.md)
