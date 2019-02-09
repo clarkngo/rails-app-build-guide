@@ -54,3 +54,11 @@ book_ids.each do |book_id|
   end
 end
 ```
+
+## Execute seeds file
+
+In your terminal,
+
+```bash
+rails db:seed
+```
