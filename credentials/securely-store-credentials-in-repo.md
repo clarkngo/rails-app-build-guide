@@ -9,8 +9,9 @@ aws:
   secret_access_key: 345
 ```
 
-3) Ctrl + C, then `s` then `y` to save.
-4) Share master key to team. Should not be pushed to repo.
+3) Ctrl + x, then `s` then `y` to save.
+4) Ctrl + x, then Ctrl + c to exit.
+5) Share master key to team. Should not be pushed to repo.
 
 Common Gotcha: 
 ```
